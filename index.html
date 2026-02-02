@@ -3,9 +3,658 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project-75056f1770052663586</title>
+    <title>Hasibul Hasan Hasib - Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="templatemo-nexaverse.css">
+<!-- 
+
+TemplateMo 603 Nexaverse
+
+https://templatemo.com/tm-603-nexaverse
+
+-->
 </head>
 <body>
-    <!-- Blank white page -->
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-ring"></div>
+        <div class="loading-text">Initializing Experience...</div>
+    </div>
+
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Grid Overlay -->
+    <div class="grid-overlay"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <div class="header" id="mainHeader">
+            <div class="logo">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00f0ff"/>
+                            <stop offset="100%" style="stop-color:#ff00d4"/>
+                        </linearGradient>
+                    </defs>
+                    <polygon points="50,5 95,30 95,70 50,95 5,70 5,30" fill="none" stroke="url(#logoGradient)" stroke-width="2"/>
+                    <polygon points="50,20 80,37 80,63 50,80 20,63 20,37" fill="none" stroke="url(#logoGradient)" stroke-width="1.5" opacity="0.6"/>
+                    <circle cx="50" cy="50" r="12" fill="url(#logoGradient)" opacity="0.3"/>
+                    <circle cx="50" cy="50" r="6" fill="url(#logoGradient)"/>
+                </svg>
+            </div>
+            <h1 class="brand-name">Hasibul Hasan Hasib</h1>
+            <p class="tagline">Web Developer & Digital Creator</p>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="menu-grid" id="menuGrid">
+            <div class="menu-item initial-load" data-section="introduction">
+                <div class="menu-badge">IN</div>
+                <div class="menu-title">Introduction</div>
+            </div>
+             <div class="menu-item initial-load" data-section="services">
+                 <div class="menu-badge">SK</div>
+                 <div class="menu-title">Skills</div>
+             </div>
+             <div class="menu-item initial-load" data-section="gallery">
+                 <div class="menu-badge">PT</div>
+                 <div class="menu-title">Portfolio</div>
+             </div>
+            <div class="menu-item initial-load" data-section="testimonials">
+                <div class="menu-badge">TM</div>
+                <div class="menu-title">Testimonials</div>
+            </div>
+            <div class="menu-item initial-load" data-section="about">
+                <div class="menu-badge">AB</div>
+                <div class="menu-title">About</div>
+            </div>
+            <div class="menu-item initial-load" data-section="contact">
+                <div class="menu-badge">CT</div>
+                <div class="menu-title">Contact</div>
+            </div>
+        </div>
+
+        <!-- Content Sections -->
+        <div id="contentArea">
+            <!-- Introduction Section -->
+            <div class="content-section" id="introduction">
+                 <div class="section-header-small">
+                     <div class="small-logo">
+                         <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                             <defs>
+                                 <linearGradient id="smallLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                     <stop offset="0%" style="stop-color:#00f0ff"/>
+                                     <stop offset="100%" style="stop-color:#ff00d4"/>
+                                 </linearGradient>
+                             </defs>
+                             <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad)" stroke-width="3"/>
+                             <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad)"/>
+                         </svg>
+                     </div>
+                     <div class="small-brand">
+                         <h3>HASIBUL HASAN HASIB</h3>
+                         <p>Web Developer</p>
+                     </div>
+                 </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+                
+                <!-- Hero Banner -->
+                <div class="intro-hero">
+                     <div class="intro-hero-content">
+                         <span class="intro-badge">Web Developer</span>
+                         <h1 class="intro-headline">Crafting Digital<br><span>Experiences</span> That Inspire</h1>
+                         <p class="intro-subtext">Passionate web developer creating responsive, user-friendly websites and applications with modern technologies and attention to detail.</p>
+                         <div class="intro-cta-group">
+                             <button class="intro-cta-primary">View My Work</button>
+                             <button class="intro-cta-secondary">Get In Touch</button>
+                         </div>
+                     </div>
+                    <div class="intro-hero-visual">
+                        <div class="intro-floating-card card-1">
+                            <span class="card-icon">⚡</span>
+                            <span class="card-text">Lightning Fast</span>
+                        </div>
+                        <div class="intro-floating-card card-2">
+                            <span class="card-icon">🎯</span>
+                            <span class="card-text">Pixel Perfect</span>
+                        </div>
+                        <div class="intro-floating-card card-3">
+                            <span class="card-icon">🔒</span>
+                            <span class="card-text">Secure & Reliable</span>
+                        </div>
+                        <div class="intro-orb"></div>
+                    </div>
+                </div>
+
+                <!-- Metrics Strip -->
+                 <div class="intro-metrics">
+                     <div class="metric-item">
+                         <span class="metric-value" data-target="50">0</span>
+                         <span class="metric-label">Projects Completed</span>
+                     </div>
+                     <div class="metric-divider"></div>
+                     <div class="metric-item">
+                         <span class="metric-value" data-target="3">0</span>
+                         <span class="metric-label">Years Experience</span>
+                     </div>
+                     <div class="metric-divider"></div>
+                     <div class="metric-item">
+                         <span class="metric-value" data-target="15">0</span>
+                         <span class="metric-label">Technologies Mastered</span>
+                     </div>
+                     <div class="metric-divider"></div>
+                     <div class="metric-item">
+                         <span class="metric-value">100%</span>
+                         <span class="metric-label">Passion for Code</span>
+                     </div>
+                 </div>
+
+                <!-- Core Values -->
+                 <div class="intro-values">
+                     <div class="value-card">
+                         <div class="value-number">01</div>
+                         <h3>Clean Code</h3>
+                         <p>Writing maintainable, efficient code that follows best practices and industry standards for long-term success.</p>
+                     </div>
+                     <div class="value-card">
+                         <div class="value-number">02</div>
+                         <h3>User Experience</h3>
+                         <p>Creating intuitive, accessible interfaces that prioritize user needs and deliver exceptional digital experiences.</p>
+                     </div>
+                     <div class="value-card">
+                         <div class="value-number">03</div>
+                         <h3>Continuous Learning</h3>
+                         <p>Staying current with emerging technologies and constantly improving skills to deliver cutting-edge solutions.</p>
+                     </div>
+                 </div>
+
+                <!-- Tech Stack Preview -->
+                 <div class="intro-tech">
+                     <p class="tech-label">Technologies I Love</p>
+                     <div class="tech-marquee">
+                         <div class="tech-track">
+                             <span class="tech-item">HTML5</span>
+                             <span class="tech-item">CSS3</span>
+                             <span class="tech-item">JavaScript</span>
+                             <span class="tech-item">React</span>
+                             <span class="tech-item">Node.js</span>
+                             <span class="tech-item">MongoDB</span>
+                             <span class="tech-item">Express</span>
+                             <span class="tech-item">Git</span>
+                             <span class="tech-item">TypeScript</span>
+                             <span class="tech-item">Tailwind CSS</span>
+                             <span class="tech-item">HTML5</span>
+                             <span class="tech-item">CSS3</span>
+                             <span class="tech-item">JavaScript</span>
+                             <span class="tech-item">React</span>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+
+            <!-- Services Section -->
+            <div class="content-section" id="services">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad2)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad2)"/>
+                        </svg>
+                    </div>
+                     <div class="small-brand">
+                         <h3>HASIBUL HASAN HASIB</h3>
+                         <p>Web Developer</p>
+                     </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                 <div class="section-header">
+                     <h2 class="section-title">My Skills</h2>
+                     <p class="section-subtitle">Technical expertise and development capabilities</p>
+                 </div>
+
+                <div class="tabs-container">
+                     <div class="tab-buttons">
+                         <button class="tab-btn active" onclick="switchTab(this, 'development')">Frontend</button>
+                         <button class="tab-btn" onclick="switchTab(this, 'design')">Backend</button>
+                         <button class="tab-btn" onclick="switchTab(this, 'consulting')">Full Stack</button>
+                         <button class="tab-btn" onclick="switchTab(this, 'support')">Tools & Tech</button>
+                     </div>
+
+                    <div class="tab-content">
+                         <div class="tab-pane active" id="development">
+                             <div class="services-list">
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/ai-optimized-templates.jpg" alt="HTML/CSS">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>HTML5 & CSS3</h4>
+                                         <p>Semantic HTML markup and modern CSS with Flexbox, Grid, and animations for responsive, accessible web pages.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/coding-screen.jpg" alt="JavaScript">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>JavaScript & TypeScript</h4>
+                                         <p>Dynamic, interactive web applications with modern JavaScript ES6+ and type-safe development with TypeScript.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/ai-mobile-app.jpg" alt="React">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>React & Frameworks</h4>
+                                         <p>Component-based UI development with React, Next.js, and modern frontend frameworks for scalable applications.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <div class="tab-pane" id="design">
+                             <div class="services-list">
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/design-screen.jpg" alt="Node.js">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>Node.js & Express</h4>
+                                         <p>Server-side JavaScript development with Node.js, building RESTful APIs and backend services with Express framework.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/brand-identity.jpg" alt="Databases">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>Databases</h4>
+                                         <p>MongoDB, MySQL, and PostgreSQL database design, optimization, and management for web applications.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/motion-design.jpg" alt="API Development">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>API Development</h4>
+                                         <p>RESTful and GraphQL API design, authentication, and integration for seamless frontend-backend communication.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <div class="tab-pane" id="consulting">
+                             <div class="services-list">
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/digital-strategy.jpg" alt="Full Stack Development">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>Full Stack Development</h4>
+                                         <p>End-to-end web application development from database design to user interface, ensuring seamless integration.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/tech-audit.jpg" alt="Deployment">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>Deployment & DevOps</h4>
+                                         <p>Application deployment, CI/CD pipelines, and cloud hosting with AWS, Vercel, and containerization.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/process-optimized.jpg" alt="Performance">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>Performance Optimization</h4>
+                                         <p>Code optimization, lazy loading, caching strategies, and SEO implementation for faster, better-performing websites.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <div class="tab-pane" id="support">
+                             <div class="services-list">
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/247-support.jpg" alt="Version Control">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>Git & Version Control</h4>
+                                         <p>Professional version control with Git, GitHub collaboration, and branching strategies for efficient development workflows.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/training-center.jpg" alt="Testing">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>Testing & Quality Assurance</h4>
+                                         <p>Unit testing, integration testing, and debugging with Jest, Cypress, and modern testing frameworks.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                                 <div class="service-row">
+                                     <div class="service-row-icon">
+                                         <img src="images/managed-service.jpg" alt="Design Tools">
+                                     </div>
+                                     <div class="service-row-content">
+                                         <h4>Design & Prototyping</h4>
+                                         <p>UI/UX design with Figma, Adobe XD, and prototyping tools to create pixel-perfect, user-centered designs.</p>
+                                     </div>
+                                     <div class="service-row-arrow">→</div>
+                                 </div>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Section -->
+            <div class="content-section" id="gallery">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad3)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad3)"/>
+                        </svg>
+                    </div>
+                     <div class="small-brand">
+                         <h3>HASIBUL HASAN HASIB</h3>
+                         <p>Web Developer</p>
+                     </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                 <div class="section-header">
+                     <h2 class="section-title">My Portfolio</h2>
+                     <p class="section-subtitle">Showcase of my recent projects</p>
+                 </div>
+
+                 <div class="filter-buttons">
+                     <button class="filter-btn active" onclick="filterGallery('all', this)">All</button>
+                     <button class="filter-btn" onclick="filterGallery('web', this)">Frontend</button>
+                     <button class="filter-btn" onclick="filterGallery('mobile', this)">Backend</button>
+                     <button class="filter-btn" onclick="filterGallery('branding', this)">Full Stack</button>
+                 </div>
+
+                 <div class="gallery-grid">
+                     <div class="gallery-item" data-category="web">
+                         <img src="images/coding-screen.jpg" alt="Project 1">
+                         <div class="gallery-overlay">
+                             <h4>React E-Commerce Site</h4>
+                             <p>Frontend Development</p>
+                         </div>
+                     </div>
+                     <div class="gallery-item" data-category="mobile">
+                         <img src="images/ai-mobile-app.jpg" alt="Project 2">
+                         <div class="gallery-overlay">
+                             <h4>Node.js API</h4>
+                             <p>Backend Development</p>
+                         </div>
+                     </div>
+                     <div class="gallery-item" data-category="branding">
+                         <img src="images/brand-identity.jpg" alt="Project 3">
+                         <div class="gallery-overlay">
+                             <h4>MERN Stack App</h4>
+                             <p>Full Stack Development</p>
+                         </div>
+                     </div>
+                     <div class="gallery-item" data-category="web">
+                         <img src="images/managed-service.jpg" alt="Project 4">
+                         <div class="gallery-overlay">
+                             <h4>Portfolio Website</h4>
+                             <p>Frontend & Design</p>
+                         </div>
+                     </div>
+                     <div class="gallery-item" data-category="mobile">
+                         <img src="images/ai-optimized-templates.jpg" alt="Project 5">
+                         <div class="gallery-overlay">
+                             <h4>Task Management API</h4>
+                             <p>Backend & Database</p>
+                         </div>
+                     </div>
+                     <div class="gallery-item" data-category="branding">
+                         <img src="images/digital-strategy.jpg" alt="Project 6">
+                         <div class="gallery-overlay">
+                             <h4>Social Media Dashboard</h4>
+                             <p>Full Stack Application</p>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+
+            <!-- Testimonials Section -->
+            <div class="content-section" id="testimonials">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad4)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad4)"/>
+                        </svg>
+                    </div>
+                     <div class="small-brand">
+                         <h3>HASIBUL HASAN HASIB</h3>
+                         <p>Web Developer</p>
+                     </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                 <div class="section-header">
+                     <h2 class="section-title">Testimonials</h2>
+                     <p class="section-subtitle">What clients say about working with me</p>
+                 </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                         <p class="testimonial-text">Working with Hasibul transformed our digital presence. His innovative approach and attention to detail exceeded our expectations at every turn.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop" alt="Client 1">
+                            </div>
+                            <div class="author-info">
+                                <h5>Michael Chen</h5>
+                                <p>CEO, TechVentures</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">The team's expertise in UX design helped us create an app that our users absolutely love. Our engagement metrics have increased by 200%.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop" alt="Client 2">
+                            </div>
+                            <div class="author-info">
+                                <h5>Sarah Johnson</h5>
+                                <p>Product Director, InnovateCo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                         <p class="testimonial-text">From strategy to execution, Hasibul delivered exceptional results. His commitment to quality is unmatched in the industry.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop" alt="Client 3">
+                            </div>
+                            <div class="author-info">
+                                <h5>David Park</h5>
+                                <p>Founder, StartupHub</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">The AI solutions they built for us have revolutionized our operations. We've seen a 40% increase in efficiency since implementation.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop" alt="Client 4">
+                            </div>
+                            <div class="author-info">
+                                <h5>Emily Zhang</h5>
+                                <p>COO, DataFlow Inc</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <div class="content-section" id="about">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad5)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad5)"/>
+                        </svg>
+                    </div>
+                     <div class="small-brand">
+                         <h3>HASIBUL HASAN HASIB</h3>
+                         <p>Web Developer</p>
+                     </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                 <div class="section-header">
+                     <h2 class="section-title">About Me</h2>
+                     <p class="section-subtitle">My journey and passion for web development</p>
+                 </div>
+
+                 <div class="about-content">
+                     <div class="about-text">
+                         <h3>Passionate Web Developer</h3>
+                         <p>Hello! I'm Hasibul Hasan Hasib, a dedicated web developer with a passion for creating beautiful, functional websites and applications. My journey in web development began with curiosity and has evolved into a career built on continuous learning and problem-solving.</p>
+                         <p>I specialize in modern web technologies including React, Node.js, and responsive design. I love turning complex problems into simple, elegant solutions that provide great user experiences.</p>
+                         <p>When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+                         <p>Check out <a href="https://templatemo.com" rel="nofollow" target="_blank">TemplateMo</a> for amazing web templates. Boost productivity with <a href="https://timermo.com" rel="nofollow" target="_blank">TimerMo</a>. Create stunning designs with <a href="https://www.vectorsticker.com" rel="nofollow" target="_blank">VectorSticker</a>.</p>
+                     </div>
+                     <div class="about-image">
+                         <img src="images/about-our-team.jpg" alt="Hasibul Hasan Hasib">
+                     </div>
+                 </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="content-section" id="contact">
+                <div class="section-header-small">
+                    <div class="small-logo">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="smallLogoGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00f0ff"/>
+                                    <stop offset="100%" style="stop-color:#ff00d4"/>
+                                </linearGradient>
+                            </defs>
+                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad6)" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad6)"/>
+                        </svg>
+                    </div>
+                     <div class="small-brand">
+                         <h3>HASIBUL HASAN HASIB</h3>
+                         <p>Web Developer</p>
+                     </div>
+                </div>
+                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+
+                 <div class="section-header">
+                     <h2 class="section-title">Get in Touch</h2>
+                     <p class="section-subtitle">Let's build something great together</p>
+                 </div>
+
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message"></textarea>
+                        </div>
+                        <button class="submit-btn">Send Message</button>
+                    </div>
+                     <div class="contact-info">
+                         <div class="contact-item">
+                             <div class="contact-icon">📍</div>
+                             <div class="contact-details">
+                                 <h4>Location</h4>
+                                 <p>Your City, Country</p>
+                             </div>
+                         </div>
+                         <div class="contact-item">
+                             <div class="contact-icon">📧</div>
+                             <div class="contact-details">
+                                 <h4>Email</h4>
+                                 <p>hasibul@example.com</p>
+                             </div>
+                         </div>
+                         <div class="contact-item">
+                             <div class="contact-icon">📞</div>
+                             <div class="contact-details">
+                                 <h4>Phone</h4>
+                                 <p>+1 (555) 123-4567</p>
+                             </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+         <footer class="footer" id="mainFooter">
+             <p>© 2026 Hasibul Hasan Hasib. Built with passion. Design by <a href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+         </footer>
+    </div>
+<script src="templatemo-nexa-scripts.js"></script>
 </body>
 </html>
